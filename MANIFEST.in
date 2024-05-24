@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tyco *.css
+recursive-include tyco *.csv
+recursive-include tyco *.html
+recursive-include tyco *.ico
+recursive-include tyco *.js
+recursive-include tyco *.json
+recursive-include tyco *.md
+recursive-include tyco *.png
+recursive-include tyco *.py
+recursive-include tyco *.svg
+recursive-include tyco *.txt
+recursive-exclude tyco *.pyc
